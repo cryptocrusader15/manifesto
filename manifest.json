@@ -1,6 +1,6 @@
 {
-  "name": "My Digital eBook",
-  "short_name": "eBook",
+  "name": "Prof Omego",
+  "short_name": "Omego",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#121212",
