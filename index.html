@@ -9,8 +9,8 @@
   <link rel="apple-touch-icon" href="apple-icon.png">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#121212">
+
   <style>
-   
     :root {
       --bg: #fdfdfd;
       --text: #1a1a1a;
@@ -37,6 +37,19 @@
             margin: 0 auto; 
             padding: 20px; 
         }
+
+         .book-container {
+        max-width: 650px; 
+        margin: 0 auto;
+        padding: 20px 40px;
+        
+        /* The side border lines */
+        border-left: 2px solid #000000;
+        border-right: 2px solid #000000;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        min-height: 100vh; /* Keeps borders stretching to the bottom of the screen */
+    }
 
     header {
       text-align: center;
@@ -89,8 +102,7 @@
       font-style: italic;
     }
 
-    ol,
-    ul {
+    ol,ul {
       padding-left: 20px;
     }
 
@@ -101,6 +113,7 @@
 </head>
 
 <body>
+  <div class="book-container">
    <img src="UNIPORT-LOGO.png" alt="uniport logo" style="display: block; margin: 20px auto; width: 150px; height: auto;">
   <header>
     <h2>UNIVERSITY OF PORT HARCOURT</h2>
@@ -1175,6 +1188,7 @@ I humbly ask for your trust and your vote, <br>
 <h3>Professor Christie Omego</h3>
  </section>
   </main>
+  </div>
    <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
